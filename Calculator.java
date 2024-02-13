@@ -5,7 +5,7 @@
 /**
  
  */
-import java.util.Scanner;
+
 class Calculator extends Child
 {
     float addition( float operand_1,float operand_2){
@@ -26,12 +26,8 @@ class Calculator extends Child
     public static void main(String[] args) {
         Calculator calc= new Calculator();
     
-
- Scanner sc= new Scanner(System.in);
- System.out.println("ENTER THE OPERAND 1");
- int operand_1=sc.nextInt();
- System.out.println("ENTER THE OPERAND 2");
- int operand_2=sc.nextInt();
+float operand_1=10;
+     float operand_2=5;
 
  
  float add_result=calc.addition(operand_1,operand_2);
